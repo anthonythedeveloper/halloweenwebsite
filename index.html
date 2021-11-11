@@ -22,11 +22,11 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav_logo">
-                    <img src="assets/img/logo.png" alt="Logo">
+                    <img src="assets/img/logo.png" alt="Logo" class="nav__logo__img">
                     Halloween
                 </a>
 
-                <div class="nav_menu" id="nav-menu">
+                <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
                             <a href="Home" class="nav__link">Home</a>
@@ -44,7 +44,7 @@
                         <a href="#" class="button button--ghost">Support</a>
                     </ul>
 
-                    <div class="nav__close" id="nav__close">
+                    <div class="nav__close" id="nav-close">
                         <i class="bx bx-x"></i>
                     </div>
                     <img src="assets/img/nav-img.png" alt="hanging spider" class="nav__img">
@@ -60,11 +60,14 @@
             <section class="home container" id="home">
                 <div class="swiper home-swiper">
                     <div class="swiper-wrapper">
+                        <!-- Home Slider 1-->
                         <section class="swiper-slide">
                             <div class="home__content grid">
                                 <div class="home__group">
                                     <img src="assets/img/home1-img.png" alt="Pumpkin" class="home_img">
                                     <div class="home__indicator"></div>
+
+
                                     <div class="home__details-img">
                                         <h4 class="home__details-title">The Labu “Reiza</h4>
                                         <span class="home__details-subtitle">The Living Pumpkin</span>
@@ -79,7 +82,7 @@
 
                                     <div class="home__buttons">
                                         <a href="#" class="button">Book Now</a>
-                                        <a href="" class="button--link button--flex">
+                                        <a href="#" class="button--link button--flex">
                                             Track Record
                                             <i class="bx bx-right-arrow-alt button__icon"></i>
                                         </a>
@@ -87,13 +90,17 @@
                                 </div>
                             </div>
                         </section>
-                    </div>
+                    
+                    
+                    <!--SLIDER 2-->
+
 
                     <section class="swiper-slide">
                         <div class="home__content grid">
                             <div class="home__group">
                                 <img src="assets/img/home2-img.png" alt="ghost" class="home_img">
                                 <div class="home__indicator"></div>
+
                                 <div class="home__details-img">
                                     <h4 class="home__details-title">Adino & Grahami</h4>
                                     <span class="home__details-subtitle">No words can describe them</span>
@@ -117,11 +124,15 @@
                         </div>
                     </section>
 
+                    <!--Slider 3-->
+
                     <section class="swiper-slide">
                         <div class="home__content grid">
                             <div class="home__group">
                                 <img src="assets/img/home3-img.png" alt="Spirit" class="home_img">
                                 <div class="home__indicator"></div>
+
+
                                 <div class="home__details-img">
                                     <h4 class="home__details-title">Captain Sem</h4>
                                     <span class="home__details-subtitle">Veteran Spooky Ghost</span>
@@ -144,21 +155,135 @@
                             </div>
                         </div>
                     </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
             
             <!--==================== CATEGORY ====================-->
             <section class="section category">
+                <h2 class="section__title">Favorite Scare <br> Category</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/category1-img.png" alt="category images" class="category__img"> 
+                        <h3 class="category__title">Ghosts</h3>
+                        <p class="category__description">Choose the ghosts, the scariest there are.</p>
+                    </div>
+                    
+                    <div class="category__data">
+                        <img src="assets/img/category2-img.png" alt="category images" class="category__img"> 
+                        <h3 class="category__title">Pumpkins</h3>
+                        <p class="category__description">You look at the scariest pumpkins there is</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category3-img.png" alt="category images" class="category__img"> 
+                        <h3 class="category__title">Witch Hat</h3>
+                        <p class="category__description">Pick the most stylish witch hats out there</p>
+                    </div>
+                </div>
                 
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="section about" id="about">
-                
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">About Halloween <br> Night</h2>
+                        <p class="about__description">Night of all the saints, or all the dead, is celebrated on October 31 and it is a 
+                            very fun international celebration, this celebration comes from ancient origins, and is already 
+                            celebrated by everyone.</p>
+                            <a href="#" class="button">Know More</a>
+                    </div>
+
+                    <img src="assets/img/about-img.png" class="about__img">
+                </div>
+
             </section>
 
             <!--==================== TRICK OR TREAT ====================-->
             <section class="section trick" id="trick">
+                <h2 class="section__title">Trick Or Treat</h2>
+
+                <div class="trick_container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" class="trick__img">
+                        <h3 class="trick__title"></h3>
+                        <span class="trick__subtitle"></span>
+                        <span class="trick__price"></span>
+
+                        <button class="button trick_button">
+                            <i class="bx bx-cart-alt trick__icon"></i>
+                        </button>
+                    </div>
+                </div>
                 
             </section>
             
