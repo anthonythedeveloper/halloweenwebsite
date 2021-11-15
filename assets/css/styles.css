@@ -21,7 +21,7 @@
   /*Red Gradient*/
 
   --body-color: linear-gradient(90deg, rgb(14, 15, 5) 0%, hsl(271, 68%, 16%) 30%);
-  --container-color: linear-gradient(136deg, hsla(268, 40%, 19%, 0.774) 0%, hsla(0, 0%, 0%, 0.466) 30%);
+  --container-color: linear-gradient(136deg, hsla(268, 40%, 19%, 0.774) 0%, hsla(0, 0%, 0%, 0.966) 100%);
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
